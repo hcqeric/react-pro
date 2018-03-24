@@ -1,0 +1,27 @@
+{
+  "name": "react-pro",
+  "version": "1.0.0",
+  "description": "a  react project that used react + redux + react-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcqeric/react-pro.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "hcqeric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcqeric/react-pro/issues"
+  },
+  "homepage": "https://github.com/hcqeric/react-pro#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-cli": "^2.0.12"
+  }
+}

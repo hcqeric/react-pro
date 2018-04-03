@@ -1,8 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
-
+import {hashHistory} from 'react-router'
 import './static/css/common.less'
 import Hello from './containers/Hello'
+import App from './containers/App'
+import RouteMap from './router/routeMap'
+
 // class Hello extends React.Component {
 //     render() {
 //       let m = <p>hello world11111vadv</p>
@@ -33,6 +36,6 @@ import Hello from './containers/Hello'
 // }
 
 render(
-    <Hello/>,
+    <RouteMap history={hashHistory} />,
     document.getElementById('root')
 )

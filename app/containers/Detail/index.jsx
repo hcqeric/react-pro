@@ -1,5 +1,4 @@
 import React from 'react'
-import hashHistory from 'react-router'
 class Detail extends React.Component{
   render(){
     return (

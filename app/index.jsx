@@ -6,6 +6,8 @@ import configureStore from './store/configureStore'
 import './static/css/common.less'
 
 import Hello from './containers/Hello'
+
+import {getData, postData} from './fetch/test'
 // class Hello extends React.Component {
 //     render() {
 //         return (
@@ -13,6 +15,9 @@ import Hello from './containers/Hello'
 //         )
 //     }
 // }
+
+getData()
+postData()
 const store = configureStore()
 render(
     <Provider store = {store}>

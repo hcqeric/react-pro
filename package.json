@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack",
+    "mock": "node ./mock/server.js",
     "server":"webpack-dev-server --open"
   },
   "repository": {
@@ -36,6 +37,7 @@
     "html-webpack-plugin": "^2.22.0",
     "json-loader": "^0.5.4",
     "koa": "^1.2.2",
+    "koa-body": "^1.6.0",
     "koa-router": "^5.4.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
@@ -48,9 +50,11 @@
     "webpack-dev-server": "^1.15.0"
   },
   "dependencies": {
+    "es6-promise": "^3.2.1",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-	"react-redux": "^4.4.5",
-    "redux": "^3.6.0"
+	  "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "whatwg-fetch": "^1.0.0"
   }
 }
